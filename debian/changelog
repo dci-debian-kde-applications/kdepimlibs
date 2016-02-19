@@ -1,6 +1,7 @@
 kdepimlibs (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * Add missing optional dep to prison. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 13 Feb 2016 14:09:18 -0800
 
