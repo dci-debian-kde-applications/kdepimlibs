@@ -103,6 +103,8 @@ Description: Akonadi core library
 Package: libkf5akonadicore-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepimlibs-bin (<< 4:15.12.1-2~)
+Replaces: kdepimlibs-bin (<< 4:15.12.1-2~)
 Description: Tools for Akonadi core library
  Tools used by Akonadi PIM data server core classes.
  .

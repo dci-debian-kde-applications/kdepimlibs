@@ -1,10 +1,14 @@
 kdepimlibs (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
   * Add missing optional dep to prison. 
   * Rebuild again new akonadi-calendar. 
   * remove prison as it is not released upstream.
   * Bump build depend version for pim*. 
+
+  [ Philip Muškovac ]
+  * libkf5akonadicore-bin breaks/replaces kdepimlibs-bin (<< 4:15.12.1-2~)
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 13 Feb 2016 14:09:18 -0800
 
