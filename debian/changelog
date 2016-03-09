@@ -1,4 +1,4 @@
-kdepimlibs (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
+kdepimlibs (4:15.12.1-2ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
@@ -10,7 +10,7 @@ kdepimlibs (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * libkf5akonadicore-bin breaks/replaces kdepimlibs-bin (<< 4:15.12.1-2~)
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 13 Feb 2016 14:09:18 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:40:30 +0100
 
 kdepimlibs (4:15.12.1-2) experimental; urgency=medium
 
