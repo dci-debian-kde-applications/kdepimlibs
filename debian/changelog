@@ -1,3 +1,9 @@
+kdepimlibs (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bigfix release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Mar 2016 08:08:53 -0800
+
 kdepimlibs (4:15.12.1-2ubuntu3) xenial; urgency=medium
 
   * Add missing epoch kcontacts build dep. 
