@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1 mips64el mipsel
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocols4selfEv@Base 15.07.90
  _ZN11IMProtocols5mSelfE@Base 15.07.90
@@ -314,7 +314,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK11IMProtocols4iconERK7QString@Base 15.07.90
  _ZNK11IMProtocols4nameERK7QString@Base 15.07.90
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
- (optional=templinst|arch=!armhf !mips64el !mipsel)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
