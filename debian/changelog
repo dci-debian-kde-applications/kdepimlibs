@@ -1,12 +1,28 @@
-kdepimlibs (4:16.04.0-1~1.gbp597cd5) UNRELEASED; urgency=medium
+kdepimlibs (4:16.04.0-1~2.gbp1a480c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @1a480c00b2acc6afa02eb333c46a9fe18c744809 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @597cd5c08b9b987945b967533afbc83e084ae45a **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:20:16 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update uscan file to fetch the unstable releases
+  * Drop unreleased changelog entry
+  * Drop packages moved to akonadi
+  * Change version dependencies for libkf5akonadi-dev
+  * Update build dependencies
+  * Update install files
+  * Update symbols files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 18:20:23 +0200
 
 kdepimlibs (4:15.12.1-2) experimental; urgency=medium
 
