@@ -1,4 +1,5 @@
 usr/share/akonadi/plugins/serializer/akonadi_serializer_socialfeeditem.desktop
+usr/share/akonadicontact/
 usr/share/config.kcfg/specialmailcollections.kcfg
 usr/share/icons/oxygen/16x16/apps/aim_protocol.png
 usr/share/icons/oxygen/16x16/apps/gadu_protocol.png
