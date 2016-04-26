@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 mips64el mipsel
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN11IMProtocols4selfEv@Base 15.07.90
  _ZN11IMProtocols5mSelfE@Base 15.07.90
@@ -41,6 +41,7 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi13ContactViewer11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi13ContactViewer12emailClickedERK7QStringS3_@Base 15.07.90
  _ZN7Akonadi13ContactViewer13setRawContactERKN9KContacts9AddresseeE@Base 15.07.90
+ _ZN7Akonadi13ContactViewer13setShowQRCodeEb@Base 4:16.04.0
  _ZN7Akonadi13ContactViewer14addressClickedERKN9KContacts7AddressE@Base 15.07.90
  _ZN7Akonadi13ContactViewer16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi13ContactViewer18phoneNumberClickedERKN9KContacts11PhoneNumberE@Base 15.07.90
@@ -238,13 +239,6 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi24StandardContactFormatterD0Ev@Base 15.07.90
  _ZN7Akonadi24StandardContactFormatterD1Ev@Base 15.07.90
  _ZN7Akonadi24StandardContactFormatterD2Ev@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollections11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollections11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollections16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollections18registerCollectionERKNS_10CollectionE@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollections4selfEv@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollectionsC1EPNS_32RecentContactsCollectionsPrivateE@Base 15.07.90
- _ZN7Akonadi25RecentContactsCollectionsC2EPNS_32RecentContactsCollectionsPrivateE@Base 15.07.90
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi27EmailAddressSelectionDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi27EmailAddressSelectionDialog16staticMetaObjectE@Base 15.07.90
@@ -299,26 +293,17 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZN7Akonadi29StandardContactGroupFormatterD0Ev@Base 15.07.90
  _ZN7Akonadi29StandardContactGroupFormatterD1Ev@Base 15.07.90
  _ZN7Akonadi29StandardContactGroupFormatterD2Ev@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJob16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJob17requestCollectionERKNS_13AgentInstanceE@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJob24requestDefaultCollectionEv@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJobC1EP7QObject@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJobC2EP7QObject@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJobD0Ev@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJobD1Ev@Base 15.07.90
- _ZN7Akonadi34RecentContactsCollectionRequestJobD2Ev@Base 15.07.90
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS7_@Base 15.07.90
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS7_@Base 15.07.90
  _ZNK11IMProtocols4iconERK7QString@Base 15.07.90
  _ZNK11IMProtocols4nameERK7QString@Base 15.07.90
  _ZNK11IMProtocols9protocolsEv@Base 15.07.90
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:16.04.0
  _ZNK7Akonadi13ContactEditor10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13ContactViewer10rawContactEv@Base 15.07.90
+ _ZNK7Akonadi13ContactViewer10showQRCodeEv@Base 4:16.04.0
  _ZNK7Akonadi13ContactViewer7contactEv@Base 15.07.90
  _ZNK7Akonadi16ContactSearchJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi16ContactSearchJob8contactsEv@Base 15.07.90
@@ -368,11 +353,6 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK7Akonadi24ContactsFilterProxyModel8lessThanERK11QModelIndexS3_@Base 15.07.90
  _ZNK7Akonadi24StandardContactFormatter13displayQRCodeEv@Base 15.07.90
  _ZNK7Akonadi24StandardContactFormatter6toHtmlENS_24AbstractContactFormatter8HtmlFormE@Base 15.07.90
- _ZNK7Akonadi25RecentContactsCollections10collectionERKNS_13AgentInstanceE@Base 15.07.90
- _ZNK7Akonadi25RecentContactsCollections10metaObjectEv@Base 15.07.90
- _ZNK7Akonadi25RecentContactsCollections13hasCollectionERKNS_13AgentInstanceE@Base 15.07.90
- _ZNK7Akonadi25RecentContactsCollections17defaultCollectionEv@Base 15.07.90
- _ZNK7Akonadi25RecentContactsCollections20hasDefaultCollectionEv@Base 15.07.90
  _ZNK7Akonadi27EmailAddressSelectionDialog10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi27EmailAddressSelectionDialog17selectedAddressesEv@Base 15.07.90
  _ZNK7Akonadi27EmailAddressSelectionDialog4viewEv@Base 15.07.90
@@ -389,7 +369,6 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZNK7Akonadi29AbstractContactGroupFormatter16additionalFieldsEv@Base 15.07.90
  _ZNK7Akonadi29AbstractContactGroupFormatter4itemEv@Base 15.07.90
  _ZNK7Akonadi29StandardContactGroupFormatter6toHtmlENS_29AbstractContactGroupFormatter8HtmlFormE@Base 15.07.90
- _ZNK7Akonadi34RecentContactsCollectionRequestJob10metaObjectEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN9KContacts12ContactGroupEEEbv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item10hasPayloadIN9KContacts9AddresseeEEEbv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 15.07.90
@@ -417,13 +396,11 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTIN7Akonadi24ContactMetaDataAttributeE@Base 15.07.90
  _ZTIN7Akonadi24ContactsFilterProxyModelE@Base 15.07.90
  _ZTIN7Akonadi24StandardContactFormatterE@Base 15.07.90
- _ZTIN7Akonadi25RecentContactsCollectionsE@Base 15.07.90
  _ZTIN7Akonadi27EmailAddressSelectionDialogE@Base 15.07.90
  _ZTIN7Akonadi27EmailAddressSelectionWidgetE@Base 15.07.90
  _ZTIN7Akonadi28StandardContactActionManagerE@Base 15.07.90
  _ZTIN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTIN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
- _ZTIN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
  (arch=!armel !armhf)_ZTS11KIconEngine@Base 4:15.07.90
  _ZTSN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTSN7Akonadi13ContactViewerE@Base 15.07.90
@@ -444,13 +421,11 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTSN7Akonadi24ContactMetaDataAttributeE@Base 15.07.90
  _ZTSN7Akonadi24ContactsFilterProxyModelE@Base 15.07.90
  _ZTSN7Akonadi24StandardContactFormatterE@Base 15.07.90
- _ZTSN7Akonadi25RecentContactsCollectionsE@Base 15.07.90
  _ZTSN7Akonadi27EmailAddressSelectionDialogE@Base 15.07.90
  _ZTSN7Akonadi27EmailAddressSelectionWidgetE@Base 15.07.90
  _ZTSN7Akonadi28StandardContactActionManagerE@Base 15.07.90
  _ZTSN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTSN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
- _ZTSN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
  (arch=!armel !armhf)_ZTV11KIconEngine@Base 4:15.07.90
  _ZTVN7Akonadi13ContactEditorE@Base 15.07.90
  _ZTVN7Akonadi13ContactViewerE@Base 15.07.90
@@ -471,13 +446,11 @@ libKF5AkonadiContact.so.5 libkf5akonadicontact5 #MINVER#
  _ZTVN7Akonadi24ContactMetaDataAttributeE@Base 15.07.90
  _ZTVN7Akonadi24ContactsFilterProxyModelE@Base 15.07.90
  _ZTVN7Akonadi24StandardContactFormatterE@Base 15.07.90
- _ZTVN7Akonadi25RecentContactsCollectionsE@Base 15.07.90
  _ZTVN7Akonadi27EmailAddressSelectionDialogE@Base 15.07.90
  _ZTVN7Akonadi27EmailAddressSelectionWidgetE@Base 15.07.90
  _ZTVN7Akonadi28StandardContactActionManagerE@Base 15.07.90
  _ZTVN7Akonadi29AbstractContactGroupFormatterE@Base 15.07.90
  _ZTVN7Akonadi29StandardContactGroupFormatterE@Base 15.07.90
- _ZTVN7Akonadi34RecentContactsCollectionRequestJobE@Base 15.07.90
  (c++)"non-virtual thunk to Akonadi::ContactEditor::~ContactEditor()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ContactEditorDialog::~ContactEditorDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ContactGroupEditor::~ContactGroupEditor()@Base" 15.07.90
