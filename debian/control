@@ -51,71 +51,12 @@ Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdepimlibs.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepimlibs.git
 
-Package: libkf5akonadi-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: foreign
-Depends: libboost-dev (>= 1.34.0~),
-         libkf5akonadiagentbase5 (= ${binary:Version}),
-         libkf5akonadicore5 (= ${binary:Version}),
-         libkf5akonadiserver-dev (>= 5.1.51~),
-         libkf5akonadiwidgets5 (= ${binary:Version}),
-         libkf5akonadixml5 (= ${binary:Version}),
-         libkf5completion-dev (>= 5.16.0~),
-         libkf5itemmodels-dev (>= 5.16.0~),
-         libkf5jobwidgets-dev,
-         libkf5kdelibs4support-dev (>= 5.12.0~),
-         libkf5service-dev,
-         libkf5solid-dev (>= 5.12.0~),
-         libkf5xmlgui-dev (>= 5.16.0~),
-         qtbase5-dev (>= 5.4.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Replaces: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4.14.10-1ubuntu2~)
-Breaks: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev (<< 4.14.10-1ubuntu2~)
-Description: development files for the KDE Development Platform PIM libraries
- This package contains development files for building software that uses
- the KDE Development Platform Personal Information Management libraries.
- .
- This package is part of the KDE Development Platform PIM libraries module.
-
 Package: kdepimlibs-kio-plugins
 Architecture: any
 Depends: libsasl2-modules, ${misc:Depends}, ${shlibs:Depends}
 Description: kio slaves used by KDE PIM applications
  This package contains the imap4, ldap, mbox, nntp, pop3, sieve and smtp kio
  slaves.
- .
- This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5akonadicore5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5akonadicore-bin (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
-Description: Akonadi core library
- This library contains Akonadi PIM data server core classes.
- .
- This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5akonadicore-bin
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Tools for Akonadi core library
- Tools used by Akonadi PIM data server core classes.
- .
- This package is part of the KDE Development Platform PIM libraries module.
-
-Package: libkf5akonadiwidgets5
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
-Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
-Description: Akonadi widgets library
- This library contains standard widgets for the Akonadi PIM data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
@@ -135,18 +76,6 @@ Replaces: libakoandi-kf5 (<< 4:15.07.90+git20150819.1000),
           libkf5akonadixml5 (<< 4:15.07.90+git20150819.1000)
 Description: kdepimlibs - data files
  This package contains data files for all libraries that are part of kdepimlibs.
-
-Package: libkf5akonadiagentbase5
-Architecture: any
-Multi-Arch: same
-Depends: kdepimlibs-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Akonadi agent base library
- This library contains classes to implement agents for the Akonadi PIM
- data server.
- .
- This package is part of the KDE Development Platform PIM libraries module.
 
 Package: libkf5akonadicontact5
 Architecture: any
@@ -266,14 +195,3 @@ Description: Akonadi notes access library - development files
  This package is part of the KDE Development Platform PIM libraries module.
  .
  This package contains the development files.
-
-Package: libkf5akonadixml5
-Architecture: any
-Multi-Arch: same
-Depends: kdepimlibs-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Akonadi XML helper library
- This library provides XML helpers using the Akonadi PIM data server.
- .
- This package is part of the KDE Development Platform PIM libraries module.
