@@ -93,7 +93,7 @@ Package: libkf5akonadicontact-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadicontact5 (= ${binary:Version}),
          libkf5calendarcore-dev (>= 4.79.0~),
          libkf5contacts-dev (>= 4.91.0~),
@@ -122,7 +122,7 @@ Description: Akonadi MIME handling library
 Package: libkf5akonadimime-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadi-dev (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadimime5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -157,7 +157,7 @@ Package: libkf5akonadisocialutils-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadisocialutils5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -182,7 +182,7 @@ Package: libkf5akonadinotes-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadinotes5 (= ${binary:Version}),
          libkf5kdelibs4support-dev (>= 5.12.0~),
          libkf5mime-dev (>= 4.85.0~),
