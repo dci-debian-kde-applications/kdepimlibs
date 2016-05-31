@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:15.12.0 amd64
-libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#
+libKF5AkonadiMime.so.5 libkf5akonadimime5 #MINVER#, kf5-kdepimlibs-kio-plugins
  _ZN7Akonadi11CommandBase10emitResultENS0_6ResultE@Base 4:15.12.0
  _ZN7Akonadi11CommandBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
  _ZN7Akonadi11CommandBase11qt_metacastEPKc@Base 4:15.12.0
