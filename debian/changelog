@@ -1,10 +1,6 @@
-kdepimlibs (4:16.04.1-1~1.gbp2ab120) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @2ab1205fdb4e288591bc9935c26bdeb70f0b8e98 **
+kdepimlibs (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @597cd5c08b9b987945b967533afbc83e084ae45a **
-
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
   * Update build-deps and deps with the info from cmake
@@ -22,9 +18,8 @@ kdepimlibs (4:16.04.1-1~1.gbp2ab120) UNRELEASED; urgency=medium
   * Update build dependencies
   * Update install files
   * Update symbols files
-  * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 10:39:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 09:30:42 +0200
 
 kdepimlibs (4:15.12.1-2) experimental; urgency=medium
 
