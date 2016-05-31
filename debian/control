@@ -57,6 +57,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepimlibs.git
 Package: kf5-kdepimlibs-kio-plugins
 Architecture: any
 Depends: libsasl2-modules, ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepimlibs-kio-plugins (>> 4:15)
+Replaces: kdepimlibs-kio-plugins (>> 4:15)
 Description: kio slaves used by KDE PIM applications
  This package contains the imap4, ldap, mbox, nntp, pop3, sieve and smtp kio
  slaves.
