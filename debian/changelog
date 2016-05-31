@@ -4,7 +4,6 @@ kf5-kdepimlibs (4:16.04.1-2) experimental; urgency=medium
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
   * Update build-deps and deps with the info from cmake
-  * debian/watch: unstable > stable, :/
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -20,6 +19,8 @@ kf5-kdepimlibs (4:16.04.1-2) experimental; urgency=medium
   * Update symbols files
   * Rename the source package, to allow coexistance with the kde4 version in
     the archive.
+  * Add breaks/replaces for the not renamed kdepim-kio versions
+  * Inject kf5-kdepimlibs-kio-plugins dependency through the symbols files
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 09:30:42 +0200
 
