@@ -1,3 +1,15 @@
+kf5-kdepimlibs (4:16.04.1-3~1.gbpf699a8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f699a8b1a55910f41c02c54acdac2243686d0e9c **
+
+  [ Maximiliano Curia ]
+  * Update copyright information
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 01 Jun 2016 11:56:24 +0200
+
 kf5-kdepimlibs (4:16.04.1-2) experimental; urgency=medium
 
   [ Automatic packaging ]
