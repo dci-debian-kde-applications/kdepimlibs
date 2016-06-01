@@ -12,53 +12,41 @@ Files: *
 Copyright: 2010, Andras Mantia <andras@kdab.com>
            2003-2005, Andreas Gungl <a.gungl@gmx.de>
            2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
-           2007, Bruno Virlet <bruno.virlet@gmail.com>
            2011, Christian Mollekopf <chrigi_1@fastmail.fm>
-           2012-2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2012, Christian Mollekopf <mollekopf@kolabsys.com>
            2009, Constantin Berzan <exit3219@gmail.com>
-           2013-2014, Daniel Vrátil <dvratil@redhat.com>
            2013, David Faure <faure@kde.org>
            2009, David Jarvie <djarvie@kde.org>
            2010, Felix Mauch <felix_mauch@web.de>
            2009, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
-           2008, Ingo Klöcker <kloecker@kde.org>
            2008, Jarosław Staniek <staniek@kde.org>
            2010, KDAB
-           2008-2009, Kevin Krammer <kevin.krammer@gmx.at>
            2009, Kevin Ottens <ervin@kde.org>
            2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
-           2010, Klarälvdalens Datakonsult AB
-           2010-2015, Laurent Montel <montel@kde.org>
+           2016, Laurent Montel <laurent.montel@kdab.com>
+           2012-2016, Laurent Montel <montel@kde.org>
            2010, Leo Franchi <lfranchi@kde.org>
+           2001, Marc Mutz <mutz@kde.org>
            2004, Mart Kelder <mart.kde@hccnet.nl>
-           2008, Omat Holding B.V <info@omat.nl>
            2007, Robert Zwerus <arzie@dds.nl>
-           2008-2011, Stephen Kelly <steveire@gmail.com>
-           2009, Szymon Stefanek <s.stefanek@gmail.com>
-           2009, Thomas McGuire <mcguire@kde.org>
-           2008, Thomas McGuire <thomas.mcguire@gmx.net>
-           2006-2010, Till Adam <adam@kde.org>
-           2010, Till Adam <till@kdab.com>
-           2006-2011, Tobias Koenig <tokoe@kde.org>
-           2006-20089, Volker Krause <vkrause@kde.org>
-           2010, Will Stephenson <wstephenson@kde.org>
-           2014, Daniel Vrátil <dvratil@redhat.com>
-           2010, Stephen Kelly <steveire@gmail.com>
-           2009, Volker Krause <vkrause@kde.org>
+           2009, Stephen Kelly <steveire@gmail.com>
+           2007-2010, Tobias Koenig <tokoe@kde.org>
+           2006-2010, Volker Krause <vkrause@kde.org>
+           2016, eyeOS S.L.U., a Telefonica company <sales@eyeos.com>
 License: LGPL-2+
 
 Files: COPYING.LIB
        akonadi-mime/COPYING.LIB
        akonadi-mime/src/commandbase.cpp
-       akonadi-mime/src/commandbase_p.h
+       akonadi-mime/src/commandbase.h
        akonadi-mime/src/emptytrashcommand.cpp
-       akonadi-mime/src/emptytrashcommand_p.h
+       akonadi-mime/src/emptytrashcommand.h
        akonadi-mime/src/markascommand.cpp
-       akonadi-mime/src/markascommand_p.h
+       akonadi-mime/src/markascommand.h
        akonadi-mime/src/movecommand.cpp
-       akonadi-mime/src/movecommand_p.h
+       akonadi-mime/src/movecommand.h
        akonadi-mime/src/movetotrashcommand.cpp
-       akonadi-mime/src/movetotrashcommand_p.h
+       akonadi-mime/src/movetotrashcommand.h
        akonadi-mime/src/removeduplicatesjob.cpp
        akonadi-mime/src/removeduplicatesjob.h
        akonadi-mime/src/util.cpp
@@ -74,47 +62,16 @@ Files: COPYING.LIB
        akonadi-socialutils/src/socialfeeditem_p.h
        akonadi-socialutils/src/socialnetworkattributes.cpp
        akonadi-socialutils/src/socialnetworkattributes.h
-       akonadi/COPYING.LIB
-       akonadi/autotests/testrunner/config.cpp
-       akonadi/autotests/testrunner/config.h
-       akonadi/autotests/testrunner/setup.cpp
-       akonadi/autotests/testrunner/setup.h
-       akonadi/autotests/testrunner/shellscript.cpp
-       akonadi/autotests/testrunner/shellscript.h
-       akonadi/autotests/testrunner/testrunner.cpp
-       akonadi/autotests/testrunner/testrunner.h
-       akonadi/src/core/jobs/collectionattributessynchronizationjob.cpp
-       akonadi/src/core/jobs/collectionattributessynchronizationjob.h
-       akonadi/src/core/jobs/resourcesynchronizationjob.cpp
-       akonadi/src/core/jobs/resourcesynchronizationjob.h
-       akonadi/src/widgets/agenttypedialog.cpp
-       akonadi/src/widgets/agenttypedialog.h
-       akonadi/autotests/testrunner/main.cpp
 Copyright: 2008, Aaron Seigo <aseigo@kde.org>
            2010, Andras Mantia <andras@kdab.com>
            2012, Dan Vrátil <dvratil@redhat.com>
            1991-1999, Free Software Foundation, Inc
-           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
            2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
            2012, Martin Klapetek <martin.klapetek@gmail.com>
-           2008, Omat Holding B.V <info@omat.nl>
-           2006, Tobias Koenig <tokoe@kde.org>
-           2009-2013, Volker Krause <vkrause@kde.org>
-           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
 License: LGPL-2.1+
 
-Files: akonadi/autotests/newmailnotifierattributetest.cpp
-       akonadi/autotests/newmailnotifierattributetest.h
-       akonadi/autotests/pop3resourceattributetest.cpp
-       akonadi/autotests/pop3resourceattributetest.h
-       akonadi/autotests/tagselectwidgettest.cpp
-       akonadi/autotests/tagselectwidgettest.h
-       akonadi/src/core/newmailnotifierattribute.cpp
-       akonadi/src/core/newmailnotifierattribute.h
-       akonadi/src/core/pop3resourceattribute.cpp
-       akonadi/src/core/pop3resourceattribute.h
-       akonadi/src/widgets/tagselectwidget.cpp
-       akonadi/src/widgets/tagselectwidget.h
+Files: akonadi-contact/src/editor/widgets/kwidgetlister.cpp
+       akonadi-contact/src/editor/widgets/kwidgetlister_p.h
        kioslave/src/sieve/sieve.cpp
        kioslave/src/sieve/sieve.h
        kioslave/src/smtp/capabilities.cpp
@@ -133,9 +90,9 @@ Files: akonadi/autotests/newmailnotifierattributetest.cpp
        kioslave/src/smtp/transactionstate.h
 Copyright: 2000-2001, Alex Zepeda <jazepeda@pacbell.net>
            2001, Hamish Rodda
-           2003-2004, Marc Mutz <mutz@kde.org>
+           2001-2004, Marc Mutz <mutz@kde.org>
            2001, Michael Häckel <Michael@Haeckel.Net>
-           2013-2015, Montel Laurent <montel@kde.org>
+           2014, Montel Laurent <montel@kde.org>
 License: GPL-2
 
 Files: COPYING.BSD
@@ -150,45 +107,20 @@ Copyright: 2002, Aaron J. Seigo <aseigo@olympusproject.org>
            2001, Michael H�kel <Michael@Haeckel.Net>
 License: BSD-2-clause
 
-Files: COPYING
-       akonadi/autotests/fakeakonadiservercommand.cpp
-       akonadi/autotests/fakeakonadiservercommand.h
-       akonadi/autotests/fakeserverdata.cpp
-       akonadi/autotests/fakeserverdata.h
-Copyright: 1989-1991, Free Software Foundation, Inc
-           2009, Stephen Kelly <steveire@gmail.com>
-License: GPL-2+
+Files: kioslave/src/nntp/CMakeLists.txt
+       kioslave/src/nntp/Mainpage.dox
+       kioslave/src/nntp/Messages.sh
+       kioslave/src/nntp/nntp.protocol
+       kioslave/src/nntp/nntps.protocol
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ kioslave/src/nntp/LICENSE
 
-Files: akonadi/src/core/qtest_akonadi.h
-       akonadi/src/xml/autotests/collectiontest.h
-       kioslave/src/nntp/nntp.cpp
-       kioslave/src/nntp/nntp.h
-Copyright: 2006, David Faure <faure@kde.org>
-           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
-           2005, Tim Way <tim@way.hrcoxmail.com>
-           2005-2009, Volker Krause <vkrause@kde.org>
-           2000, Wolfram Diestel <wolfram@steloj.de>
-License: LGPL-2
-
-Files: akonadi-contact/src/editor/im/imeditordialog.cpp
-       akonadi-contact/src/editor/im/imeditordialog.h
-       akonadi-contact/src/editor/im/imitemdialog.cpp
-       akonadi-contact/src/editor/im/imitemdialog.h
-Copyright: 2012, Jonathan Marten <jjm@keelhaul.me.uk>
-           2004-2010, Will Stephenson <wstephenson@kde.org>
-License: LGPL-2.1+3+KDEeV
-
-Files: akonadi/autotests/collectionmodifytest.cpp
-       akonadi/src/core/notificationbus_p.cpp
-       akonadi/src/core/notificationbus_p.h
-Copyright: 2015, Daniel Vrátil <dvratil@redhat.com>
-License: GPL-2+3+KDEeV
-
-Files: akonadi/cmake/COPYING-CMAKE-SCRIPTS
-       kioslave/cmake/COPYING-CMAKE-SCRIPTS
-       kioslave/cmake/FindSasl2.cmake
-Copyright: 2006-2007, Laurent Montel <montel@kde.org>
-License: BSD-3-clause
+Files: akonadi-contact/src/editor/addresseditor/iconnamecache.cpp
+       akonadi-contact/src/editor/addresseditor/iconnamecache_p.h
+       akonadi-mime/src/metatype.h
+Copyright: 2009, Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+3+KDEeV
 
 Files: kioslave/src/ldap/kio_ldap.cpp
        kioslave/src/ldap/kio_ldap.h
@@ -196,14 +128,17 @@ Files: kioslave/src/ldap/kio_ldap.cpp
 Copyright: 2004-2007, Szombathelyi György <gyurco@freemail.hu>
 License: Expat
 
-Files: akonadi/src/core/kdsignalblocker.cpp
-       akonadi/src/core/kdsignalblocker.h
-Copyright: 2001-2012, Klaralvdalens Datakonsult AB
-License: LGPL-2+3
+Files: kioslave/src/nntp/nntp.cpp
+       kioslave/src/nntp/nntp.h
+Copyright: 2005, Tim Way <tim@way.hrcoxmail.com>
+           2005, Volker Krause <vkrause@kde.org>
+           2000, Wolfram Diestel <wolfram@steloj.de>
+License: LGPL-2
 
-Files: akonadi-mime/src/metatype.h
-Copyright: 2009, Thomas McGuire <mcguire@kde.org>
-License: LGPL-2+3+KDEeV
+Files: kioslave/cmake/COPYING-CMAKE-SCRIPTS
+       kioslave/cmake/FindSasl2.cmake
+Copyright: 2006-2007, Laurent Montel <montel@kde.org>
+License: BSD-3-clause
 
 Files: akonadi-contact/src/editor/data/zone.tab
 Copyright: Not copyright claimed
@@ -314,28 +249,6 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
-License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
- complete text of the GNU General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
-
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -392,19 +305,6 @@ License: LGPL-2.1+
  On Debian systems, the complete text of the GNU Lesser General Public
  License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
-License: LGPL-2+3
- This file may be distributed and/or modified under the terms of the GNU
- Lesser General Public License version 2 and version 3 as published by the
- Free Software Foundation and appearing in the file LICENSE.LGPL included.
- .
- This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
- WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
- likewise, the complete text of the GNU Lesser General Public License version
- 3 can be found in `/usr/share/common-licenses/LGPL-3'.
-
 License: LGPL-2+3+KDEeV
  This library is free software; you can redistribute it and/or modify
  it under the terms of the GNU Library General Public License as published
@@ -426,25 +326,3 @@ License: LGPL-2+3+KDEeV
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
  likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in `/usr/share/common-licenses/LGPL-3'.
-
-License: LGPL-2.1+3+KDEeV
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) version 3, or any
- later version accepted by the membership of KDE e.V. (or its
- successor approved by the membership of KDE e.V.), which shall
- act as a proxy defined in Section 6 of version 3 of the license.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1',
- likewise, the complete text of the GNU Lesser General Public
- License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
