@@ -449,7 +449,7 @@ Package: kdepimlibs-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdelibs5-dbg, libc6-dbg [amd64], ${allLibraries}, ${misc:Depends}
+Depends: ${allLibraries}, ${misc:Depends}
 Recommends: kdepimlibs-kio-plugins (= ${binary:Version})
 Description: debugging symbols for the KDE Development Platform PIM libraries
  This package contains debugging files used to investigate problems with
