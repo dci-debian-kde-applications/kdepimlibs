@@ -153,8 +153,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdepimlibs5 (<< 4:4.4.0), libgpgme++2
 Breaks: kdepimlibs5 (<< 4:4.4.0), libgpgme++2
-Description: c++ wrapper library for gpgme
- GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's gpgme
+Description: C++ wrapper library for GPGME
+ GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's GPGME
  (GnuPG Made Easy) library.
  .
  This package is part of the KDE Development Platform PIM libraries module.
