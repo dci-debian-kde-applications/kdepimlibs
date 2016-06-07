@@ -32,7 +32,7 @@ Build-Depends: cmake,
                shared-mime-info (>= 0.30),
                uuid-dev,
                xsltproc
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-sc/kdepimlibs.git
