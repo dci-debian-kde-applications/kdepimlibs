@@ -1,0 +1,1 @@
+libakonadi-notes4: symbols-declares-dependency-on-other-package kdepim-runtime*
