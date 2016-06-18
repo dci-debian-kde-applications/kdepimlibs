@@ -1,10 +1,10 @@
-kdepimlibs (4:4.14.10-3) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.10-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Set the cmake minimum version required and policies, and build properly
     with that; cmake-policy.diff.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 12:51:20 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Jun 2016 13:28:57 +0200
 
 kdepimlibs (4:4.14.10-2) unstable; urgency=medium
 
