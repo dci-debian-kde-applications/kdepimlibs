@@ -1,0 +1,41 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Update cmake version & policy.
+ Set cmake_mininum_required to match kdelibs policy and enable newer cmake
+ policies.
+ .
+ Also fix add_definitions according to new policy.
+Forwarded: not-needed
+Last-Update: 2016-06-18
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,5 +1,7 @@
+ project(kdepimlibs)
+ 
++cmake_minimum_required(VERSION 2.8.9)
++
+ # where to look first for cmake modules. This line must be the first one or cmake will use the system's FindFoo.cmake
+ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/modules")
+ 
+--- a/akonadi/calendar/tests/CMakeLists.txt
++++ b/akonadi/calendar/tests/CMakeLists.txt
+@@ -16,7 +16,7 @@ include_directories( ${CMAKE_BINARY_DIR}
+                      ${CMAKE_BINARY_DIR}/akonadi/kmime
+                      ${CMAKE_BINARY_DIR}/mailtransport )
+ 
+-add_definitions(-DITIP_DATA_DIR="\\"${CMAKE_CURRENT_SOURCE_DIR}/itip_data\\"" )
++add_definitions(-DITIP_DATA_DIR="${CMAKE_CURRENT_SOURCE_DIR}/itip_data" )
+ 
+ set(common_sources unittestbase.cpp helper.cpp ../utils_p.cpp)
+ 
+--- a/kcal/tests/CMakeLists.txt
++++ b/kcal/tests/CMakeLists.txt
+@@ -77,7 +77,7 @@ endif()
+ ########### next target ###############
+ set(testfields_SRCS testfields.cpp)
+ set(srcfile "${CMAKE_SOURCE_DIR}/kcal/tests/data/test_pilot.ics")
+-add_definitions( -D_TESTINPUT="\\"${srcfile}\\"" )
++add_definitions( -D_TESTINPUT="${srcfile}" )
+ 
+ kde4_add_executable(testfields TEST ${testfields_SRCS})
+ 
