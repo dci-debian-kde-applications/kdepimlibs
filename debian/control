@@ -50,6 +50,7 @@ Replaces: kdepim-runtime (<< 4:4.13),
 Breaks: kdepim-runtime (<< 4:4.13),
         kdepimlibs-data (<< 4:4.1.80),
         libkleopatra1-dev
+Conflicts: libkf5akonadi-dev, libkf5akonadi-dev-bin
 Description: development files for the KDE Development Platform PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.
