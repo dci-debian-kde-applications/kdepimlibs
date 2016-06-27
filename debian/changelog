@@ -1,15 +1,12 @@
-kf5-kdepimlibs (4:16.04.2-1~1.gbp9101e3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @9101e35b29ba95aa33f6ea17244c7da9fa8516e0 **
+kf5-kdepimlibs (4:16.04.2-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Update copyright information
-  * UNRELEASED
 
   [ Automatic packaging ]
   * Update symbols files with the buildds results
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:20:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:30:11 +0200
 
 kf5-kdepimlibs (4:16.04.1-2) experimental; urgency=medium
 
