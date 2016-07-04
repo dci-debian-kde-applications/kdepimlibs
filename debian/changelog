@@ -1,8 +1,8 @@
-kf5-kdepimlibs (4:16.04.2-2~) UNRELEASED; urgency=medium
+kf5-kdepimlibs (4:16.04.2-2) unstable; urgency=low
 
-  * 
+  * Release to unstable.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jul 2016 17:02:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jul 2016 17:02:23 +0200
 
 kf5-kdepimlibs (4:16.04.2-1) experimental; urgency=medium
 
