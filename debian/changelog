@@ -1,3 +1,12 @@
+kdepimlibs (4:4.14.10-5~1.gbp893494) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @89349410287b9571337d5bab37fe4209fa3ed4ac **
+
+  * Update symbols files for gcc-6 compatibility.
+    Thanks to Martin Michlmayr for the report (Closes: 811983)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 08 Jul 2016 15:10:10 +0200
+
 kdepimlibs (4:4.14.10-4) unstable; urgency=medium
 
   * Allow coinstallation with kf5-kdepimlibs
