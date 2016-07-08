@@ -4,9 +4,9 @@ libakonadi-kde.so.4 libakonadi-kde4 #MINVER#, kdepim-runtime (>> 4:4.10)
  _Z5qHashRKN7Akonadi10CollectionE@Base 4:4.3.4
  _Z5qHashRKN7Akonadi3TagE@Base 4:4.12.80
  _Z5qHashRKN7Akonadi6EntityE@Base 4:4.3.4
- _ZN5boost9exceptionD0Ev@Base 4:4.14.10
- _ZN5boost9exceptionD1Ev@Base 4:4.14.10
- _ZN5boost9exceptionD2Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD0Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD1Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD2Ev@Base 4:4.14.10
  _ZN7Akonadi10Collection10setEnabledEb@Base 4:4.13.90
  _ZN7Akonadi10Collection10setVirtualEb@Base 4:4.9.80
  _ZN7Akonadi10Collection11setResourceERK7QString@Base 4:4.3.4

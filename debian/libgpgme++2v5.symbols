@@ -415,9 +415,9 @@ libgpgme++-pthread.so.2 libgpgme++2v5 #MINVER#
  _ZN5GpgMElsERSoRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_8NotationE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_9SignatureE@Base 4:4.3.4
- _ZN5boost9exceptionD0Ev@Base 4:4.14.10
- _ZN5boost9exceptionD1Ev@Base 4:4.14.10
- _ZN5boost9exceptionD2Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD0Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD1Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD2Ev@Base 4:4.14.10
  _ZNK5GpgME10EngineInfo13homeDirectoryEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo15requiredVersionEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo6isNullEv@Base 4:4.3.4
@@ -1254,9 +1254,9 @@ libgpgme++.so.2 libgpgme++2v5 #MINVER#
  _ZN5GpgMElsERSoRKNS_5ErrorE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_8NotationE@Base 4:4.3.4
  _ZN5GpgMElsERSoRKNS_9SignatureE@Base 4:4.3.4
- _ZN5boost9exceptionD0Ev@Base 4:4.14.10
- _ZN5boost9exceptionD1Ev@Base 4:4.14.10
- _ZN5boost9exceptionD2Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD0Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD1Ev@Base 4:4.14.10
+ (optional=gccinternal)_ZN5boost9exceptionD2Ev@Base 4:4.14.10
  _ZNK5GpgME10EngineInfo13homeDirectoryEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo15requiredVersionEv@Base 4:4.3.4
  _ZNK5GpgME10EngineInfo6isNullEv@Base 4:4.3.4
