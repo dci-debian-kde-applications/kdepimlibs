@@ -3,3 +3,4 @@ sslv2_disabled.patch
 tlscancelled.patch
 cmake-policy.diff
 CVE-2016-7966.diff
+CVE-2016-7966_part2.diff

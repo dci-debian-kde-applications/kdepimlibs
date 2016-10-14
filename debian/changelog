@@ -1,3 +1,13 @@
+kdepimlibs (4:4.14.10-7) UNRELEASED; urgency=medium
+
+  * Additional patch to complete the fix for CVE-2016-7966
+    - Replace all scary charactars (", <, > and &) with safe HTML
+      replacements.
+    - Backport commit kcoreaddons 5e13d2439dbf540fdc840f0b0ab5b3ebf6642c6a
+      in debian/patches/CVE-2016-7966_part2.diff
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 14 Oct 2016 20:40:11 +0200
+
 kdepimlibs (4:4.14.10-6) unstable; urgency=high
 
   * Team upload.
