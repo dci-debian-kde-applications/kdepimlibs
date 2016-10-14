@@ -12,6 +12,7 @@ kdepimlibs (4:4.14.2-2+deb8u1) jessie-security; urgency=high
       replacements.
     - Backport commit kcoreaddons 5e13d2439dbf540fdc840f0b0ab5b3ebf6642c6a
       in debian/patches/CVE-2016-7966_part2.diff
+  * Update symbols files.
 
  -- Scott Kitterman <scott@kitterman.com>  Wed, 12 Oct 2016 12:20:26 -0400
 
