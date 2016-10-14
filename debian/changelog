@@ -14,7 +14,7 @@ kdepimlibs (4:4.14.2-2+deb8u1) jessie-security; urgency=high
       in debian/patches/CVE-2016-7966_part2.diff
   * Update symbols files.
 
- -- Scott Kitterman <scott@kitterman.com>  Wed, 12 Oct 2016 12:20:26 -0400
+ -- Sandro Knauß <hefee@debian.org>  Fri, 14 Oct 2016 18:09:02 +0200
 
 kdepimlibs (4:4.14.2-2) unstable; urgency=medium
 
