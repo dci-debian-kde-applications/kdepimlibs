@@ -1,3 +1,12 @@
+kdepimlibs (4:4.14.2-2+deb8u1) jessie-security; urgency=high
+
+  * Team upload.
+  * CVE-2016-7966 KMail: HTML injection in plain text viewer (Closes: #840546)
+    - Avoid transforming as a url in plain text mode when there is a quote
+    - Add debian/patches/CVE-2016-7966.diff from upstream
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 12 Oct 2016 12:20:26 -0400
+
 kdepimlibs (4:4.14.2-2) unstable; urgency=medium
 
   * Team upload.
