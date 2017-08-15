@@ -160,7 +160,6 @@ Description: Akonadi resources for handling social feeds
 Package: libkf5akonadisocialutils-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadisocialutils5 (= ${binary:Version}),
          ${misc:Depends},
@@ -185,7 +184,6 @@ Description: Akonadi notes access library
 Package: libkf5akonadinotes-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:16.04~),
          libkf5akonadinotes5 (= ${binary:Version}),
          libkf5kdelibs4support-dev (>= 5.12.0~),
