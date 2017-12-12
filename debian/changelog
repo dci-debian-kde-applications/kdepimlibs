@@ -1,12 +1,12 @@
-kdepimlibs (4:4.14.10-8) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.10-8) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Switch the libical-dev build dependency to libical2-dev: kcal and kcalcore
     do not support libical3 (and most probably these versions never will),
     so use libical2 for now. (Closes: #884201)
   * Bump Standards-Version to 4.1.2, no changes required.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 20:40:51 +0100
+ -- Pino Toscano <pino@debian.org>  Tue, 12 Dec 2017 21:12:16 +0100
 
 kdepimlibs (4:4.14.10-7) unstable; urgency=high
 
