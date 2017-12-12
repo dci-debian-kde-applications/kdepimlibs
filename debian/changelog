@@ -1,3 +1,8 @@
+kdepimlibs (4:4.14.10-8) UNRELEASED; urgency=medium
+
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 20:40:51 +0100
+
 kdepimlibs (4:4.14.10-7) unstable; urgency=high
 
   * Additional patch to complete the fix for CVE-2016-7966
