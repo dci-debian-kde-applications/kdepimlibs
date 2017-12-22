@@ -1,6 +1,6 @@
-kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
+kdepimlibs (4:4.14.10-9) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Remove Fathi Boudra from Uploaders, as requested by the MIA team.
     (Closes: #879328)
   * Update symbols files from logs of buildds.
@@ -17,7 +17,7 @@ kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
     kde-runtime (already excluded) long ago.
   * Stop disabling dqk_link_with_as_needed on ia64.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Dec 2017 09:43:58 +0100
+ -- Pino Toscano <pino@debian.org>  Fri, 22 Dec 2017 11:00:14 +0100
 
 kdepimlibs (4:4.14.10-8) unstable; urgency=medium
 
