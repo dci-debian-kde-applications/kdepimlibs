@@ -1,5 +1,8 @@
 kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove Fathi Boudra from Uploaders, as requested by the MIA team.
+    (Closes: #879328)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Dec 2017 09:43:58 +0100
 
