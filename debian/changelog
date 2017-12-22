@@ -15,6 +15,7 @@ kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
   * Update lintian overrides.
   * Stop excluding kdebase-runtime from shlibdeps, as it was renamed to
     kde-runtime (already excluded) long ago.
+  * Stop disabling dqk_link_with_as_needed on ia64.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Dec 2017 09:43:58 +0100
 
