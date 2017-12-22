@@ -1,1 +1,0 @@
-libakonadi-kde4: hardening-no-fortify-functions usr/lib/libakonadi-kde.so.4.*

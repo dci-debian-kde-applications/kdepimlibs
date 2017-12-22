@@ -1,0 +1,2 @@
+# renamed due to ABI breakage (#756376)
+libkontactinterface4a: package-name-doesnt-match-sonames libkontactinterface4
