@@ -8,6 +8,7 @@ kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
     for the KF5 version of Akonadi, and thus it is not useful for the Qt4
     version
     - update the lintian overrides according to this
+  * Remove kdepimlibs-dbg in favour of the -dbgsym packages.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Dec 2017 09:43:58 +0100
 
