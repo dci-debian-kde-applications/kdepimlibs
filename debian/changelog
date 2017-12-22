@@ -13,6 +13,8 @@ kdepimlibs (4:4.14.10-9) UNRELEASED; urgency=medium
   * Remove the libprison-dev build dependency, since it is optional, and it
     will be removed soon.
   * Update lintian overrides.
+  * Stop excluding kdebase-runtime from shlibdeps, as it was renamed to
+    kde-runtime (already excluded) long ago.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Dec 2017 09:43:58 +0100
 
